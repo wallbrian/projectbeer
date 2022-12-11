@@ -398,7 +398,7 @@ section{
 }
 
 section .container{
-  margin: 100px;
+  margin: 0px;
 }
 section h1{
   font-size: 3rem;
