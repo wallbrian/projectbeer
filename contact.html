@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title>JB's Brewery - Contact us</title>
+		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>@import url('https://fonts.cdnfonts.com/css/nexa-bold?styles=29919')</style>
+		<link rel="stylesheet" href="style/style.css"/>
+                
+	</head>
+	
+	<body>
+	<!-- Header !-->
+		<a id="top"></a>
+		<!-- (A) MENU WRAPPER -->
+		<nav id="hamnav">
+		  <!-- (B) THE HAMBURGER -->
+		  <label for="hamburger">&#9776;</label>
+		  <input type="checkbox" id="hamburger"/>
+		 
+		  <!-- (C) MENU ITEMS -->
+		  <div id="hamitems">
+			<a href="index.html">Home</a>
+			<a href="about.html">Our Story</a>
+			<a href="beers.html">Our Beers</a>
+			<a><img src="images/8degrees.png" alt="Company logo" height="80"></a>
+			<a href="news.html">News</a>
+			<a href="shop.html">Shop</a>
+			<a href="contact.html">Contact Us</a>
+		  </div>
+		</nav>
+		
+		<!-- Main Body !-->
+		<h2 align="center"><p>Contact Us</h2><P>
+		<div class="bodyContainer">
+			<div class="bodyLeft">
+				<h1><p>JB’s Craft Brewing Company Ltd<br>1 Brewer's Lane<br>Co. Cork</p></h1>
+				<br>
+				<p><h3>Please fill out the below form to send us a message and we will respond as quickly as possible:</h3></p>
+				<form id ="form">
+					<label for="name"><h4>Your Name:</h4></label>
+					<input type="text" id="name">
+					<label for="pwd"><h4>Your E-mail Address:</h4></label>
+					<input type="email" id="email">
+					<label for="subject"><h4>Select a Subject:</h4></label>
+					<select id="subject" name="subject" size="1">
+					<option value="general">General Query</option>
+					<option value="sales">Sales Query</option>
+					<option value="returns">Returns Query</option>
+					<option value="tour2">Tour Booking - up to 2 people</option>
+					<option value="tour4">Tour Booking - up to 4 people</option>
+					<option value="tour6">Tour Booking - up to 6 people</option>
+					</select>
+					<label for="msg"><h4>Enter Your Message:</h4></label></p>
+					<textarea id="msg" rows="4" cols="50"></textarea>
+					<h4><input type="submit" id="submit" onclick="message()"/><h4>
+				</form>
+			</div>
+			<div class="bodyLeft">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2441.133384370693!2d-8.271830984201552!3d52.277280379768946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4843571988788f39%3A0x80c15bf88598ef06!2sEight%20Degrees%20Brewing%20Company!5e0!3m2!1sen!2sie!4v1670111407238!5m2!1sen!2sie" width="100%" height="98.5%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+		
+		<!-- Footer -->
+		<div class="footer">
+			<div class ="middle">
+				<a href="#top">To the top!</a>
+			</div>
+			<div class="rightfooter">
+			  © JB's 2022 &nbsp
+			  <br><a href="#" class="fa fa-facebook">&nbsp &nbsp</a>
+			  <a href="#" class="fa fa-twitter"> &nbsp &nbsp </a>
+			  <a href="#" class="fa fa-linkedin">&nbsp &nbsp  </a>
+			  <a href="#" class="fa fa-instagram"> &nbsp &nbsp </a>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
