@@ -60,12 +60,6 @@ function purchase(){
 	alert("Thanks for your order! \n-------------------------- \n"  +shopList +"\n" +shopList2 +"\n--------------------------" +"\nYour total is €" +totalPrice +"\nYour item(s) will be delivered in 5 working days!" );
 }
 
-/* Loop */
-let basketArr = ["Shopping", "Basket"];
-	for(let i=0; i<basketArr.length; i++){
-		document.getElementById("basket").innerHTML=(basketArr.join(' '));
-	}
-
 
 /* Age Checker */
 
@@ -84,8 +78,6 @@ function message(){
 	alert("Please input a valid e-mail address");
 	}
 }
-
-
 
 $(document).ready(function () {
     var age = {};
@@ -174,3 +166,4 @@ $(document).ready(function () {
 	}
 	
 });
+
